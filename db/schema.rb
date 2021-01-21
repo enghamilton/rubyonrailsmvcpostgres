@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+=begin
 ActiveRecord::Schema.define(version: 0) do
 
   # These are extensions that must be enabled in order to support this database
@@ -26,5 +27,6 @@ ActiveRecord::Schema.define(version: 0) do
     t.string "price", limit: 255, null: false
     t.string "username", limit: 255, null: false
   end
+=end
 
 end
