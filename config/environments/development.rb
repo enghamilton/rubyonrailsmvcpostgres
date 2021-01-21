@@ -2,7 +2,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   #To allow requests to 3001-fbb5384f-4fd2-436b-bb3c-61ae0864323c.ws-us03.gitpod.io, add the following to your environment configuration
-  config.hosts << "3000-fbb5384f-4fd2-436b-bb3c-61ae0864323c.ws-us03.gitpod.io"
+  config.hosts << "restrubyonrails.herokuapp.com"
   
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
