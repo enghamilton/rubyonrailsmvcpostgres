@@ -10,23 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-=begin
+
 ActiveRecord::Schema.define(version: 0) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "products", primary_key: "pid", id: :integer, default: nil, comment: "table for products rest api json webservice", force: :cascade do |t|
+  create_table "products", if_not_exists: true, primary_key: "pid", id: :integer, default: nil, comment: "table for products rest api json webservice", force: :cascade do |t|
     t.text "username"
     t.text "phone"
     t.text "price"
   end
 
-  create_table "tb_produto", id: :bigint, default: nil, force: :cascade do |t|
+  create_table "tb_produto", if_not_exists: true, id: :bigint, default: nil, force: :cascade do |t|
     t.string "phone", limit: 255, null: false
     t.string "price", limit: 255, null: false
     t.string "username", limit: 255, null: false
   end
-=end
 
 end
