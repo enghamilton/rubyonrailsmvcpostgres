@@ -10,6 +10,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use postgresql as the database for connect existing Heroku database
 gem 'pg'
 gem 'schema_to_scaffold'
+gem 'rake', '~> 13.0.1'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
