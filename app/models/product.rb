@@ -1,3 +1,3 @@
 class Product < ApplicationRecord
-  self.table_name = "products"
+  #self.table_name = "products"
 end
