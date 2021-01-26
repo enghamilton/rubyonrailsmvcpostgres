@@ -38,6 +38,7 @@ production:
   database: products
   username: ivchhoxzrfmfxe
   #password: 83dd727c514763e78f0874b3008a21ea0da43e93159933c599a89125823ba498
+  password:
   #host: ec2-107-20-168-237.compute-1.amazonaws.com
   host: localhost
   port: 5432
