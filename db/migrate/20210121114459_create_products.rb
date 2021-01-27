@@ -8,5 +8,14 @@ class CreateProducts < ActiveRecord::Migration[6.1]
 
       #t.timestamps
     end
+    
+    SystemSetting.create  username:  'first user',
+                          phone: '912341234',
+                          price: '14.90'
   end
+  
+  def down
+    drop_table :products
+  end
+  
 end
