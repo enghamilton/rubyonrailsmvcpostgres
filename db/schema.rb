@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 0) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "products", if_not_exists: true, primary_key: "pid", id: :integer, default: nil, comment: "table for products rest api json webservice", force: :cascade do |t|
+  create_table "products", if_not_exists: true, primary_key: "id", id: :integer, default: nil, comment: "table for products rest api json webservice", force: :cascade do |t|
     t.text "username"
     t.text "phone"
     t.text "price"
